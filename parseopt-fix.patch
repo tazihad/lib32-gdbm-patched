@@ -1,0 +1,11 @@
+--- parseopt.c	2018-05-30 15:39:15.000000000 +0600
++++ parseopt-update.c	2020-10-25 03:21:10.391001437 +0600
+@@ -255,8 +255,6 @@
+ }
+ 
+ char *parseopt_program_name;
+-char *parseopt_program_doc;
+-char *parseopt_program_args;
+ const char *program_bug_address = "<" PACKAGE_BUGREPORT ">";
+ void (*parseopt_help_hook) (FILE *stream);
+ 
